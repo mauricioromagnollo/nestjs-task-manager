@@ -1,10 +1,11 @@
 {
   "name": "task-management-api",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "An Task Management API developed using NestJS.",
+  "author": "Maurício Romagnoli <x0n4d0>",
+  "repository": "github:x0n4d0/task-management-api",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
