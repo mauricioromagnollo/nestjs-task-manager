@@ -8,6 +8,8 @@
 - [Docker](https://www.docker.com/)
 - [PostgreSQL](https://www.postgresql.org/)
 - [TypeORM](https://typeorm.io)
+- [Bcrypt](https://github.com/kelektiv/node.bcrypt.js)
+- [Json Web Token](https://jwt.io/)
 
 ## Tools
 
