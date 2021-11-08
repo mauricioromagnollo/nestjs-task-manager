@@ -7,6 +7,7 @@
 - [Class Transformer](https://github.com/typestack/class-transformer)
 - [Docker](https://www.docker.com/)
 - [PostgreSQL](https://www.postgresql.org/)
+- [TypeORM](https://typeorm.io)
 
 ## Tools
 
