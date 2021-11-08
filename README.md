@@ -1,5 +1,13 @@
 # task-management-api
 
-- [uuid](https://github.com/uuidjs/uuid)
-- [class-validator](https://github.com/typestack/class-validator)
-- [class-transformer](https://github.com/typestack/class-transformer)
+## Techs
+
+- [UUID](https://github.com/uuidjs/uuid)
+- [Class Validator](https://github.com/typestack/class-validator)
+- [Class Transformer](https://github.com/typestack/class-transformer)
+- [Docker](https://www.docker.com/)
+- [PostgreSQL](https://www.postgresql.org/)
+
+## Tools
+
+- [Insomnia](https://insomnia.rest/)
