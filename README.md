@@ -10,6 +10,7 @@
 - [TypeORM](https://typeorm.io)
 - [Bcrypt](https://github.com/kelektiv/node.bcrypt.js)
 - [Json Web Token](https://jwt.io/)
+- [Passport](http://www.passportjs.org/)
 
 ## Tools
 
