@@ -11,6 +11,7 @@
 - [Bcrypt](https://github.com/kelektiv/node.bcrypt.js)
 - [Json Web Token](https://jwt.io/)
 - [Passport](http://www.passportjs.org/)
+- [NestJS Logger](https://docs.nestjs.com/techniques/logger)
 
 ## Tools
 
