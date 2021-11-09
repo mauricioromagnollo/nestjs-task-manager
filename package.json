@@ -1,9 +1,9 @@
 {
-  "name": "task-management-api",
+  "name": "libre-todo-api",
   "version": "0.0.1",
   "description": "An Task Management API developed using NestJS.",
   "author": "Maurício Romagnoli <x0n4d0>",
-  "repository": "github:x0n4d0/task-management-api",
+  "repository": "github:x0n4d0/libre-todo-api",
   "private": true,
   "license": "MIT",
   "scripts": {
