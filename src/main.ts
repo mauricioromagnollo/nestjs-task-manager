@@ -13,6 +13,7 @@ async function bootstrap() {
   app.useGlobalInterceptors(new TransformInterceptor());
   app.enableCors({
     origin: configService.get('CORS_ORIGIN'),
+    credentials: true,
   });
   const port = process.env.PORT;
   await app.listen(port);
