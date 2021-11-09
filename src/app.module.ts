@@ -13,7 +13,7 @@ import { AuthModule } from './auth/auth.module';
       port: 5432,
       username: 'postgres',
       password: 'postgres',
-      database: 'task-management',
+      database: 'libre-todo',
       autoLoadEntities: true,
       synchronize: true,
     }),
