@@ -6,6 +6,10 @@
 tmp/
 *.txt
 
+# Env Files
+.env.homolog
+.env.prod
+
 # Logs
 logs
 *.log
