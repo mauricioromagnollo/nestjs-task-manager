@@ -19,13 +19,13 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: Install Dependencies
-    - run: yarn
+      run: yarn
     - name: Build Project
-    - run: yarn build
+      run: yarn build
     - name: Run Unit Tests
-    - run: yarn test
+      run: yarn test
     - name: Run E2E Tests
-    - run: yarn test:e2e
+      run: yarn test:e2e
 
   deploy:
     needs: build
