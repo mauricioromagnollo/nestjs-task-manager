@@ -1,6 +1,6 @@
 {
   "name": "libre-todo-api",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "An Task Management API developed using NestJS.",
   "author": "Maurício Romagnoli <x0n4d0>",
   "repository": "github:x0n4d0/libre-todo-api",
@@ -16,6 +16,7 @@
     "start:prod": "STAGE=prod node dist/main",
     "start:debug": "STAGE=dev nest start --debug --watch",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+    "up": "docker-compose --env-file ./.env.dev up --build -d",
     "test": "STAGE=test jest",
     "test:watch": "yarn test --watch",
     "test:cov": "yarn test --coverage",

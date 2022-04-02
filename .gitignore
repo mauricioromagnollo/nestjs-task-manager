@@ -6,6 +6,9 @@
 tmp/
 *.txt
 
+# Docker
+.docker/
+
 # Env Files
 .env.homolog
 .env.prod

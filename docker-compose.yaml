@@ -1,0 +1,33 @@
+version: '2.1'
+
+services:
+
+  app-nestjs:
+    image: nestjs-task-manager
+    build: .
+    environment:
+      PORT: 3000
+    command:
+      - npm
+      - run
+      - start:dev
+    volumes:
+      - .:/nestjs-task-manager
+      - ./node_modules:/nestjs-task-manager/node_modules
+    ports:
+      - 3000:3000
+
+  db-postgres:
+    image: postgres
+    container_name: nestjs-task-manager-postgres
+    # restart: aways
+    ports:
+      - '5432:5432'
+    volumes:
+      - .docker/dbdata:/var/lib/postgresql/data
+    environment:
+      POSTGRES_HOST: localhost
+      POSTGRES_PORT: 5432
+      POSTGRES_USERNAME: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DATABASE: nestjs-task-manager
