@@ -1,18 +1,28 @@
-# task-management-api
+<div align='justify'>
 
-## Techs
+![](./banner.png)
 
-- [UUID](https://github.com/uuidjs/uuid)
-- [Class Validator](https://github.com/typestack/class-validator)
-- [Class Transformer](https://github.com/typestack/class-transformer)
-- [Docker](https://www.docker.com/)
+> A task manager API designed for studies. Developed with NestJS, PostgreSQL, Jest, Supertest, JWT and Docker.
+
+<br>
+
+## **Techs**
+
+- [NestJS](https://docs.nestjs.com/)
 - [PostgreSQL](https://www.postgresql.org/)
 - [TypeORM](https://typeorm.io)
-- [Bcrypt](https://github.com/kelektiv/node.bcrypt.js)
 - [Json Web Token](https://jwt.io/)
+- [Docker](https://www.docker.com/)
 - [Passport](http://www.passportjs.org/)
-- [NestJS Logger](https://docs.nestjs.com/techniques/logger)
 
-## Tools
+<br>
+
+## **Tools**
 
 - [Insomnia](https://insomnia.rest/)
+
+<br>
+
+## **References**
+
+</div>
