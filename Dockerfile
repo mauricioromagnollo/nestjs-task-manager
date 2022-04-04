@@ -1,13 +1,13 @@
-FROM node:17-slim
+FROM node:14.15.4-slim
 
 WORKDIR /nestjs-task-manager/
 
 COPY package.json package-lock.json /nestjs-task-manager/
 
-RUN npm i --silent
-
 COPY . .
+
+RUN npm i --silent
 
 USER node
 
-CMD npm run start:dev
+EXPOSE 3000
