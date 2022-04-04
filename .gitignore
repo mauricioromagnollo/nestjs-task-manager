@@ -7,7 +7,7 @@ tmp/
 *.txt
 
 # Docker
-.docker/
+task-manager-data/
 
 # Env Files
 .env.homolog
