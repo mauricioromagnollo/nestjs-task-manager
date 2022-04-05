@@ -2,9 +2,7 @@
 
 # **Learned**
 
-> What was learned / studied during the development of this API.
-
-## NestJS 
+## NestJS
 
 - NestJS Modules
 - NestJS Controllers
@@ -38,7 +36,7 @@
 - Authentication and Authorization
 - Protected resources
 - Ownership of tasks by users
-- Using JWT Tokens 
+- Using JWT Tokens
 - Password hashing, salts and properly storing passwords
 
 ## Deployment
